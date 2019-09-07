@@ -1,0 +1,75 @@
+.body
+{
+    background-color: #1E434C
+}
+
+.header
+{
+    display: flex; 
+    margin: 0%;     
+}
+
+.headerImage
+{
+    width: 100%;
+}
+
+.navigation
+{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;   
+    background-color: #8D230F;  
+    padding-top: 25px;
+    padding-bottom: 25px;        
+}
+
+.navigationText
+{
+    text-decoration-line: none;
+    font-weight: bold;    
+    padding-left: 25px;
+    padding-right: 25px;    
+}
+
+.pannelLeft
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #9b4f0f;     
+    margin-right: 0%; 
+    margin: 25px;
+}
+
+.pannelRight
+{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #9b4f0f; 
+    margin-left: 0%;
+    margin: 25px;
+}
+
+.pannelImage
+{
+    width: 400px;
+    height: 400px;
+}
+
+.pannelText
+{    
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;    
+}
+
+.menuImage
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
